@@ -1,5 +1,8 @@
 # App de Cuestionario en JS
 
+
+![](assets/20230508_115356_appcuestionario.png)
+
 Esta es una app hecha en JS para la materia de DES310 - Desarrollo de Componentes Web
 
 Se presenta tanto el código inicial como el final para verificación de resultados.
