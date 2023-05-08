@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Cuestionario</title>
+        <link rel="stylesheet" href="css/esilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Boton de inicio -->
+    <div class="btn_inicio"><button>Iniciar Cuestionario</button></div>
+
+    <!-- Caja de información -->
+    <div class="caja_informacion">
+        <div class="info-titulo"><span>Algunas reglas de este cuestionario</span></div>
+        <div class="info-lista">
+            <div class="info">1. Solo tendrás <span>15 segundos</span> por cada pregunta.</div>
+            <div class="info">2. Una vez que seleccione su respuesta, no se puede deshacer.</div>
+            <div class="info">3. No puede seleccionar ninguna opción una vez que se acaba el tiempo.</div>
+            <div class="info">4. No puedes salir del Quiz mientras estás jugando.</div>
+            <div class="info">5. Obtendrás puntos en base a tus respuestas correctas.</div>
+        </div>
+        <div class="botones">
+            <button class="salir">Salir</button>
+            <button class="volver-a-empezar">continuar</button>
+        </div>
+    </div>
+
+    <!-- Caja del cuestionario -->
+    <div class="caja_cuestionario">
+        <header>
+            <div class="titulo">Cuestionario</div>
+            <div class="cronometro">
+                <div class="tiempo_restante_sec">Tiempo restante</div>
+                <div class="cronometro_sec">15</div>
+            </div>
+            <div class="linea_de_tiempo"></div>
+        </header>
+        <section>
+            <div class="texto_pregunta">
+                <!-- Aquí se inserta una pregunta de JavaScript -->
+            </div>
+            <div class="lista_de_opciones">
+                <!-- Aquí se insertan opciones de JavaScript -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="total_pregunta">
+                <!-- Aquí he insertado Número de conteo de preguntas de JavaScript -->
+            </div>
+            <button class="siguiente_btn">Siguiente</button>
+        </footer>
+    </div>
+
+    <!-- Cuadro de resultados -->
+    <div class="caja_de_resultados">
+        <div class="icono">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="texto_completado">¡Has completado el cuestionario!</div>
+        <div class="puntaje_texto">
+            <!-- Aquí he insertado Score Result de JavaScript -->
+        </div>
+        <div class="botones">
+            <button class="volver-a-empezar">Repetir cuestionario </button>
+            <button class="salir">Salir</button>
+        </div>
+    </div>
+
+    <!-- Dentro de este archivo JavaScript, solo se han insertado preguntas y opciones. -->
+    <script src="js/preguntas.js"></script>
+
+    <!-- Dentro de este archivo JavaScript se he codificado todos los códigos de la app -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
